@@ -1,26 +1,5 @@
-# CakePHP Application Skeleton
+Ce projet a été réalisé dans le cadre du TP de l'ntreprise I@D consistant à faire un Tchat, je vais donc expliquer ce que j'ai fait:
 
-[![Build Status](https://api.travis-ci.org/cakephp/app.png)](https://travis-ci.org/cakephp/app)
-[![License](https://poser.pugx.org/cakephp/app/license.svg)](https://packagist.org/packages/cakephp/app)
+Tout d'abord l'architecture basée sur le modèle MVC se trouve dans le Folder webroot.
+J'ai créé deux bases de données via phpmyadmin une stockant les utilisateurs et une stockant les messages des utilisateurs, vous ne faites pas parti de la base de donnée inscrivez vous ! Vous en faites parti connectez vous et écrivez des messages afin de communiquer dans le tchat, afin de maintenir un niveau de sécurité suffisant deux identifications sont nécessaire pour écrire un message une première via la connexion et une deuxième via la selection de votre prénom d'utilisateur ainsi que votre mot de passe puis écrivez votre message et communiquez avec les autres membres !
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.0.
-
-This is an unstable repository and should be treated as an alpha.
-
-## Installation
-
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
-
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
-
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
